@@ -1,18 +1,27 @@
 {
-    "name": "shapes",
+    "name": "shapes-ts",
     "version": "1.0.0",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
         "test": "node build/index.js",
         "compile": "tsc",
+        "typedoc": "typedoc --out ./docs ./src",
         "prepublish": "tsc"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "shapes",
+        "maths",
+        "geometry",
+        "trigonometry",
+        "typescript",
+        "modules"
+    ],
+    "author": "Ethan Kletschke",
     "license": "MIT",
-    "description": "",
+    "description": "A TypeScript API for shapes such as rectangles and circles.",
     "dependencies": {
+        "typedoc": "^0.26.3",
         "typescript": "^5.5.3"
     }
 }
